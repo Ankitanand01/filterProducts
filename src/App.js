@@ -1,7 +1,13 @@
+import Products from "./Products/Products";
+import Recomended from "./Recomended/Recomended";
+import Nav from "./navigation/Nav";
+
 function App() {
   return (
     <div className="App">
-     <h1>Hello World</h1>
+      <Nav/>
+      <Products/>
+      <Recomended/>
     </div>
   );
 }
