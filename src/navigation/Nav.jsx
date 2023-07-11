@@ -3,7 +3,6 @@ import { AiOutlineHeart, AiOutlineUserAdd, AiOutlineShoppingCart } from "react-i
 import './Nav.scss'
 const Nav = () => {
     return (
-        <div>
             <nav>
                 <div className="nav-container">
                     <input type="text" className='search-input' name="" id="" placeholder='Enter your search shoes' />
@@ -21,7 +20,6 @@ const Nav = () => {
                     </a>
                 </div>
             </nav>
-        </div>
     )
 }
 
