@@ -4,6 +4,7 @@
     margin-left: 20rem;
     margin-top: 2rem;
     z-index: -2;
+    gap: 5px;
 
     .card {
         border: 2px solid #ededed;
@@ -12,6 +13,7 @@
 
         .card-image {
             width: 13rem;
+            height: 10rem;
             margin-bottom: 1rem;
         }
 
@@ -35,7 +37,7 @@
 
             .card-price{
                 display: flex;
-                justify-content: space-around;
+                justify-content: space-between;
                 align-items: center;
             }
             .bag{
